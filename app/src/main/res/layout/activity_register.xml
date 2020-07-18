@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253280"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+    <TextView
+        android:text="Đăng Ký"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="32sp"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_fullname"
+        android:hint="Họ tên"
+        android:background="#fff"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_username"
+        android:hint="username"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_password"
+        android:hint="password"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_signUp"
+        android:layout_gravity="center_horizontal"
+        android:text="Đăng Ký"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_account_exist"
+        android:text="Đã có tài khoản?"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.MainActivity">
+        <TextView
+            android:text="Thông tin chi tiết"
+            android:gravity="center_horizontal"
+            android:layout_marginVertical="10dp"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Họ tên: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_fullname"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingLeft="5dp"
+                android:text="Nguyễn Văn Hoà"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Tên tài khoản: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingLeft="5dp"
+                android:text="hoanv"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Mật khẩu: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_pass"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingLeft="5dp"
+                android:text="1111"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Năm Sinh: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_dob"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:text="11/04/1997"
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Quê quán: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_countries"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:text="Hương Lâm-Hiệp Hoà-Bắc Giang"
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Trình độ học vấn: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_degree"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:text="Đại học"
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Trình độ chuyên môn "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_major"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:text="CNTT"
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginHorizontal="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Phòng ban "
+            android:textSize="16dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tv_department"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:text="Phần mềm"
+            android:textSize="16dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Ngày BĐ: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_joindate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingLeft="5dp"
+                android:text="11/12/2010"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Ngày KT: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_quitdate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Quá trình đào tạo: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:text="Tốt"
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Quá trình làm việc: "
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_isworking"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:text="Đang làm việc"
+                android:textSize="16dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
